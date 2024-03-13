@@ -1,4 +1,5 @@
-from django.conf.urls import re_path, include
+from django.conf.urls import include
+from django.urls import re_path
 
 from .api import PostResource
 

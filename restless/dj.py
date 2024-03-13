@@ -1,10 +1,10 @@
 import six
 
 from django.conf import settings
-from django.conf.urls import re_path
 from django.core.exceptions import ObjectDoesNotExist
 from django.core.paginator import Paginator
 from django.http import HttpResponse, Http404
+from django.urls import re_path
 from django.views.decorators.csrf import csrf_exempt
 
 from .constants import OK, NO_CONTENT
