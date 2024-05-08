@@ -8,7 +8,7 @@ import uuid
 
 class MoreTypesJSONEncoder(json.JSONEncoder):
     """
-    A JSON encoder that allows for more common Python data types.
+    A TEST JSON encoder that allows for more common Python data types.
 
     In addition to the defaults handled by ``json``, this also supports:
 
